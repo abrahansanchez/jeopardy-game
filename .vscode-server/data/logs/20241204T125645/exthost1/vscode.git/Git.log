@@ -1,0 +1,63 @@
+2024-12-04 12:56:47.098 [info] [main] Log level: Info
+2024-12-04 12:56:47.098 [info] [main] Validating found git in: "git"
+2024-12-04 12:56:47.098 [info] [main] Using git "2.34.1" from "git"
+2024-12-04 12:56:47.098 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-04 12:56:47.098 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-04 12:56:47.099 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-12-04 12:56:47.105 [info] [Model][openRepository] Opened repository: /home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801
+2024-12-04 12:56:47.111 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-04 12:56:47.116 [info] > git config --get commit.template [2ms]
+2024-12-04 12:56:47.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2024-12-04 12:56:47.124 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:56:47.125 [info] > git rev-parse refs/remotes/origin/dev [1ms]
+2024-12-04 12:56:47.130 [info] > git status -z -uall [3ms]
+2024-12-04 12:56:47.131 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-04 12:56:47.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [8ms]
+2024-12-04 12:56:47.148 [info] > git config --local branch.dev.vscode-merge-base [1ms]
+2024-12-04 12:56:47.148 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-04 12:56:47.151 [info] > git config --get commit.template [7ms]
+2024-12-04 12:56:47.152 [info] > git reflog dev --grep-reflog=branch: Created from *. [1ms]
+2024-12-04 12:56:47.172 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [19ms]
+2024-12-04 12:56:47.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [20ms]
+2024-12-04 12:56:47.180 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:56:47.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [8ms]
+2024-12-04 12:56:47.186 [info] > git rev-parse refs/remotes/origin/dev [6ms]
+2024-12-04 12:56:47.203 [info] > git status -z -uall [15ms]
+2024-12-04 12:56:47.204 [info] > git config --local branch.dev.vscode-merge-base origin/dev [20ms]
+2024-12-04 12:56:47.205 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms] (cancelled)
+2024-12-04 12:56:47.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [10ms]
+2024-12-04 12:56:47.222 [info] > git config --get commit.template [9ms]
+2024-12-04 12:56:47.223 [info] > git config --local branch.dev.vscode-merge-base [2ms]
+2024-12-04 12:56:47.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [1ms]
+2024-12-04 12:56:47.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [3ms]
+2024-12-04 12:56:47.241 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:56:47.243 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [11ms]
+2024-12-04 12:56:47.246 [info] > git rev-parse refs/remotes/origin/dev [5ms]
+2024-12-04 12:56:47.251 [info] > git status -z -uall [3ms]
+2024-12-04 12:56:47.251 [info] > git diff --name-status -z --diff-filter=ADMR 3d58db2b9572bf1dec80a718aa7463230e285cd7...refs/remotes/origin/dev [6ms]
+2024-12-04 12:56:47.252 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-04 12:56:47.680 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-04 12:56:48.367 [info] > git config --get commit.template [5ms]
+2024-12-04 12:56:48.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2024-12-04 12:56:48.372 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:56:48.374 [info] > git rev-parse refs/remotes/origin/dev [2ms]
+2024-12-04 12:56:48.382 [info] > git status -z -uall [4ms]
+2024-12-04 12:56:48.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-04 12:57:30.889 [info] > git show --textconv :README.md [3ms]
+2024-12-04 12:57:30.889 [info] > git ls-files --stage -- /home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/README.md [1ms]
+2024-12-04 12:57:30.961 [info] > git cat-file -s 54fb9457b30ad7f878a1d943af479962846421bd [69ms]
+2024-12-04 12:57:32.119 [info] > git show --textconv :science-lab.js [3ms]
+2024-12-04 12:57:32.120 [info] > git ls-files --stage -- /home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/science-lab.js [0ms]
+2024-12-04 12:57:32.123 [info] > git cat-file -s 238009096a909b8f936d8d09189006426c9e5be2 [2ms]
+2024-12-04 12:57:51.629 [info] > git config --get commit.template [6ms]
+2024-12-04 12:57:51.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [5ms]
+2024-12-04 12:57:51.637 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:57:51.638 [info] > git rev-parse refs/remotes/origin/dev [1ms]
+2024-12-04 12:57:51.647 [info] > git status -z -uall [5ms]
+2024-12-04 12:57:51.649 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-04 12:58:49.260 [info] > git config --get commit.template [17ms]
+2024-12-04 12:58:49.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [16ms]
+2024-12-04 12:58:49.269 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/abe/oop-science-lab-3258b268632746dea03661c9e93f4801/.git/refs/remotes/origin/dev'
+2024-12-04 12:58:49.271 [info] > git rev-parse refs/remotes/origin/dev [2ms]
+2024-12-04 12:58:49.279 [info] > git status -z -uall [5ms]
+2024-12-04 12:58:49.280 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

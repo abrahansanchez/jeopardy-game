@@ -1,0 +1,28 @@
+2024-11-04 15:37:06.328 [info] [main] Log level: Info
+2024-11-04 15:37:06.328 [info] [main] Validating found git in: "git"
+2024-11-04 15:37:06.328 [info] [main] Using git "2.34.1" from "git"
+2024-11-04 15:37:06.328 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-04 15:37:06.328 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-04 15:37:06.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-04 15:37:06.328 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-04 15:37:06.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-04 15:37:06.332 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-04 15:37:06.332 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-04 15:37:06.341 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-04 15:37:06.345 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-04 15:37:06.354 [info] [Model][openRepository] Opened repository: /home/abe/.nvm
+2024-11-04 15:37:06.366 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-04 15:37:06.366 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-04 15:37:06.367 [info] > git config --get commit.template [6ms]
+2024-11-04 15:37:06.373 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-04 15:37:06.373 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-04 15:37:06.378 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-04 15:37:06.384 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [11ms]
+2024-11-04 15:37:06.424 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2024-11-04 15:37:06.517 [info] > git status -z -uall [129ms]
+2024-11-04 15:37:06.539 [info] > git config --get commit.template [2ms]
+2024-11-04 15:37:06.543 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-11-04 15:37:06.554 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-04 15:37:06.564 [info] > git status -z -uall [19ms]
+2024-11-04 15:37:06.932 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-04 15:37:07.072 [info] > git rev-parse --show-toplevel [2ms]

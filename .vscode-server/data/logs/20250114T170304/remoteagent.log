@@ -1,0 +1,44 @@
+2025-01-14 17:03:04.629 [info] 
+
+
+
+
+2025-01-14 17:03:04.637 [info] Extension host agent started.
+2025-01-14 17:03:04.866 [info] [127.0.0.1][8ce11674][ManagementConnection] New connection established.
+2025-01-14 17:03:05.068 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] New connection established.
+2025-01-14 17:03:05.408 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] <1349> Launched Extension Host Process.
+2025-01-14 18:47:51.770 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-14 18:47:51.982 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-14 18:47:56.630 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 12:29:12.372 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-15 12:29:12.566 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 12:43:50.775 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 12:43:50.869 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-15 14:49:26.792 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 14:49:26.979 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-15 15:04:25.472 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-15 15:04:25.575 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 15:15:11.764 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-15 15:15:11.870 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 10:03:44.555 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 10:03:50.588 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 10:05:45.270 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 10:05:45.443 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 10:23:48.317 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 10:23:48.418 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 11:02:56.702 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 11:02:56.748 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 12:53:25.318 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 12:53:25.435 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 14:49:11.186 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 14:49:11.298 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:30:55.164 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:30:55.687 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 17:32:55.158 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 17:32:55.245 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:52:02.982 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:52:10.993 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:52:16.308 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 17:52:16.416 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
+2025-01-16 22:32:09.492 [info] [127.0.0.1][8ce11674][ManagementConnection] The client has reconnected.
+2025-01-16 22:32:09.774 [info] [127.0.0.1][e32a3817][ExtensionHostConnection] The client has reconnected.
