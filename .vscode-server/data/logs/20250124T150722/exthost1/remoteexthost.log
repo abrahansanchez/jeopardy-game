@@ -1,0 +1,23 @@
+2025-01-24 15:07:23.723 [info] Extension host with pid 1301 started
+2025-01-24 15:07:23.775 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-24 15:07:23.791 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-01-24 15:07:23.855 [info] Lock '/home/abe/.vscode-server/data/User/workspaceStorage/d3e682653fed83ac8c0f8952eeb32f20/vscode.lock': Lock acquired.
+2025-01-24 15:07:23.916 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-24 15:07:23.916 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-24 15:07:24.060 [info] Eager extensions activated
+2025-01-24 15:07:24.060 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 15:07:24.060 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 15:07:24.168 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-24 15:07:29.234 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-24 15:07:29.234 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-24 15:07:29.234 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-24 15:07:33.562 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11562
+2025-01-24 15:07:34.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11572
+2025-01-24 15:10:57.364 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-24 15:14:01.361 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-01-24 15:20:42.135 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-24 15:20:42.587 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-24 15:20:42.587 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-24 15:21:01.515 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-24 15:21:02.197 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-24 15:34:25.538 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

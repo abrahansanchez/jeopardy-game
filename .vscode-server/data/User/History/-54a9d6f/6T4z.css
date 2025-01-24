@@ -1,0 +1,12 @@
+.poke-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .poke-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }

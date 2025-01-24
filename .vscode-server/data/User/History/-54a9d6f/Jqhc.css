@@ -1,0 +1,30 @@
+.pokedex {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .poke-card {
+    width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border: 1px solid #2c3e50;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #ecf0f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .poke-card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .poke-card h3 {
+    color: #3498db;
+  }
+  
+  .poke-card p {
+    color: #95a5a6;
+  }

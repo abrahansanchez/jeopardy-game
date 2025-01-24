@@ -1,0 +1,23 @@
+2025-01-18 17:07:51.907 [info] [main] Log level: Info
+2025-01-18 17:07:51.907 [info] [main] Validating found git in: "git"
+2025-01-18 17:07:51.907 [info] [main] Using git "2.34.1" from "git"
+2025-01-18 17:07:51.907 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-18 17:07:51.907 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-18 17:07:51.909 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2025-01-18 17:07:51.920 [info] [Model][openRepository] Opened repository: /home/abe/jeopardy-8585a0b237fb4449b6bad21e24a5de97
+2025-01-18 17:07:51.926 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-18 17:07:51.929 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-18 17:07:51.930 [info] > git config --get commit.template [6ms]
+2025-01-18 17:07:51.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2025-01-18 17:07:51.984 [info] > git status -z -uall [17ms]
+2025-01-18 17:07:51.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-18 17:07:51.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [8ms]
+2025-01-18 17:07:52.004 [info] > git config --get commit.template [8ms]
+2025-01-18 17:07:52.005 [info] > git config --local branch.dev.vscode-merge-base [3ms]
+2025-01-18 17:07:52.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2025-01-18 17:07:52.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [4ms]
+2025-01-18 17:07:52.023 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [8ms]
+2025-01-18 17:07:52.027 [info] > git diff --name-status -z --diff-filter=ADMR 54fd42f4985c3d96bfd5895d523927a62d4d32dd...refs/remotes/origin/dev [1ms]
+2025-01-18 17:07:52.034 [info] > git status -z -uall [3ms]
+2025-01-18 17:07:52.034 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-18 17:07:52.467 [info] > git check-ignore -v -z --stdin [0ms]

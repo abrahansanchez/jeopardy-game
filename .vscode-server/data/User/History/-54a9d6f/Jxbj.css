@@ -1,0 +1,38 @@
+.pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    grid-gap: 20px; /* Adjust gap between cards */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    padding: 20px; /* Add padding around the grid */
+}
+
+.pokedex h2 {
+    text-align: center; /* Center the "Pokedex" title */
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.poke-card {
+    width: 150px;
+    height: 240px; 
+    border: 1px solid #2c3e50;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.poke-card img {
+    max-width: 100px;
+    margin-bottom: 10px; 
+}
+
+.poke-card h3 {
+    color: #3498db;
+    margin-bottom: 5px; 
+
+.poke-card p {
+    color: #95a5a6;
+    margin: 2px 0; /
+}

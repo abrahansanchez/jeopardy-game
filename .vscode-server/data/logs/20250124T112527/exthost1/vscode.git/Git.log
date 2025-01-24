@@ -1,0 +1,37 @@
+2025-01-24 11:25:28.990 [info] [main] Log level: Info
+2025-01-24 11:25:28.990 [info] [main] Validating found git in: "git"
+2025-01-24 11:25:28.990 [info] [main] Using git "2.34.1" from "git"
+2025-01-24 11:25:28.990 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-24 11:25:28.990 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-24 11:25:28.998 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-24 11:25:29.002 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-24 11:25:29.007 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-01-24 11:25:52.293 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-24 11:25:52.296 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-24 11:25:52.301 [info] [Model][openRepository] Opened repository: /home/abe
+2025-01-24 11:25:52.311 [info] > git config --get commit.template [5ms]
+2025-01-24 11:25:52.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [5ms]
+2025-01-24 11:25:52.325 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-24 11:25:52.837 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-24 11:25:53.785 [info] > git status -z -uall [1469ms] (cancelled)
+2025-01-24 11:26:00.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [503ms]
+2025-01-24 11:26:00.461 [info] > git config --local branch.dev.vscode-merge-base [36ms]
+2025-01-24 11:26:00.461 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-24 11:26:00.465 [info] > git config --get commit.template [46ms]
+2025-01-24 11:26:00.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [3ms]
+2025-01-24 11:26:00.481 [info] > git reflog dev --grep-reflog=branch: Created from *. [17ms]
+2025-01-24 11:26:00.486 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-24 11:26:00.489 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to dev [3ms]
+2025-01-24 11:26:00.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-24 11:26:00.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/master [1ms]
+2025-01-24 11:26:00.505 [info] > git config --local branch.dev.vscode-merge-base origin/master [2ms]
+2025-01-24 11:26:00.516 [info] > git status -z -uall [39ms] (cancelled)
+2025-01-24 11:26:00.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [6ms]
+2025-01-24 11:26:00.521 [info] > git config --local branch.dev.vscode-merge-base [2ms]
+2025-01-24 11:26:00.524 [info] > git config --get commit.template [9ms]
+2025-01-24 11:26:00.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2025-01-24 11:26:00.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [1ms]
+2025-01-24 11:26:00.544 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-24 11:26:00.721 [info] > git status -z -uall [185ms] (cancelled)
+2025-01-24 11:26:07.899 [info] > git show --textconv :pokedex-app-new/pokedex-app-new-1/src/setupTests.js [4ms]
+2025-01-24 11:26:07.901 [info] > git ls-files --stage -- /home/abe/pokedex-app-new/pokedex-app-new-1/src/setupTests.js [3ms]

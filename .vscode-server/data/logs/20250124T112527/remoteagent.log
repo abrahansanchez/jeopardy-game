@@ -1,0 +1,27 @@
+2025-01-24 11:25:27.350 [info] 
+
+
+
+
+2025-01-24 11:25:27.359 [info] Extension host agent started.
+2025-01-24 11:25:27.644 [info] [127.0.0.1][34d6d706][ManagementConnection] New connection established.
+2025-01-24 11:25:27.812 [info] [127.0.0.1][8dcf0f76][ExtensionHostConnection] New connection established.
+2025-01-24 11:25:28.178 [info] [127.0.0.1][8dcf0f76][ExtensionHostConnection] <944> Launched Extension Host Process.
+2025-01-24 12:14:39.194 [info] [127.0.0.1][1f3fd0d2][ManagementConnection] New connection established.
+2025-01-24 12:14:39.392 [info] [127.0.0.1][44c5df45][ExtensionHostConnection] New connection established.
+2025-01-24 12:14:39.395 [info] [127.0.0.1][44c5df45][ExtensionHostConnection] <10706> Launched Extension Host Process.
+2025-01-24 12:16:27.327 [info] [127.0.0.1][34d6d706][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-24 12:16:27.452 [info] [127.0.0.1][8dcf0f76][ExtensionHostConnection] <944> Extension Host Process exited with code: 0, signal: null.
+2025-01-24 14:10:52.720 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-24 14:10:52.729 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-24 14:10:52.818 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-24 14:10:52.863 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-24 14:35:43.260 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-24 14:43:06.465 [info] [127.0.0.1][1f3fd0d2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-24 14:43:06.835 [info] [127.0.0.1][44c5df45][ExtensionHostConnection] <10706> Extension Host Process exited with code: 0, signal: null.
+2025-01-24 14:43:08.144 [info] [127.0.0.1][cd4f1e56][ManagementConnection] New connection established.
+2025-01-24 14:43:08.376 [info] [127.0.0.1][21128de6][ExtensionHostConnection] New connection established.
+2025-01-24 14:43:08.385 [info] [127.0.0.1][21128de6][ExtensionHostConnection] <38620> Launched Extension Host Process.
+2025-01-24 14:48:28.388 [info] [127.0.0.1][21128de6][ExtensionHostConnection] The client has reconnected.
+2025-01-24 14:50:16.304 [info] [127.0.0.1][cd4f1e56][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-24 14:50:16.551 [info] [127.0.0.1][21128de6][ExtensionHostConnection] <38620> Extension Host Process exited with code: 0, signal: null.

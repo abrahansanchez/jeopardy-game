@@ -1,0 +1,23 @@
+2025-01-24 14:50:23.153 [info] [main] Log level: Info
+2025-01-24 14:50:23.153 [info] [main] Validating found git in: "git"
+2025-01-24 14:50:23.153 [info] [main] Using git "2.34.1" from "git"
+2025-01-24 14:50:23.153 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-24 14:50:23.153 [info] > git rev-parse --show-toplevel [9ms]
+2025-01-24 14:50:23.153 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2025-01-24 14:50:23.153 [info] [Model][openRepository] Opened repository: /home/abe
+2025-01-24 14:50:23.153 [info] > git config --get commit.template [4ms]
+2025-01-24 14:50:23.154 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-24 14:50:23.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [27ms]
+2025-01-24 14:50:23.200 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-24 14:50:23.200 [info] > git rev-parse --show-toplevel [38ms]
+2025-01-24 14:50:23.223 [info] > git rev-parse --show-toplevel [19ms]
+2025-01-24 14:50:23.226 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-24 14:50:23.705 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-24 14:50:24.981 [info] > git status -z -uall [1794ms] (cancelled)
+2025-01-24 14:50:24.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [15ms]
+2025-01-24 14:50:25.521 [info] > git config --local branch.dev.vscode-merge-base [534ms]
+2025-01-24 14:50:25.526 [info] > git config --get commit.template [554ms]
+2025-01-24 14:50:25.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [13ms]
+2025-01-24 14:50:25.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2025-01-24 14:50:25.622 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2025-01-24 14:50:25.758 [info] > git status -z -uall [194ms] (cancelled)
